@@ -29,10 +29,10 @@ extension CAShapeLayer {
         self.lineCap = CAShapeLayerLineCap.round
     }
 }
-
+/**
 // How to use
 // E.g. Custom View
-/*
+
 class CustomView: UIView {
 
     fileprivate let dottedBorder = CAShapeLayer()
@@ -41,9 +41,8 @@ class CustomView: UIView {
        self.layer.addSublayer(self.dottedBorder)
     }
 
-*/
+
 // E.g. Custom Collection view Cell
-/*
 import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
